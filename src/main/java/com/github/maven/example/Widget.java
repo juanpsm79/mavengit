@@ -15,7 +15,11 @@ public class Widget {
 
 	private boolean enabled;
 	private boolean cocoa;
+
+	private boolean funcional;
+
     private boolean pep;
+
 
 	/**
 	 * Create new enabled widget
@@ -44,6 +48,16 @@ public class Widget {
 		return this;
 	}
 
+
+	public boolean isFuncional() {
+		return funcional;
+	}
+
+	public void setFuncional(boolean funcional) {
+		this.funcional = funcional;
+	}
+
+
 	public boolean isPep() {
 		return pep;
 	}
@@ -52,3 +66,4 @@ public class Widget {
 		this.pep = pep;
 	}
 }
+
