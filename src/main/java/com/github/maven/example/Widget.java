@@ -43,4 +43,12 @@ public class Widget {
 		this.enabled = enabled;
 		return this;
 	}
+
+	public boolean isPep() {
+		return pep;
+	}
+
+	public void setPep(boolean pep) {
+		this.pep = pep;
+	}
 }
