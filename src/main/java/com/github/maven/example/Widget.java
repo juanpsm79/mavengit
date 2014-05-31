@@ -15,6 +15,7 @@ public class Widget {
 
 	private boolean enabled;
 	private boolean cocoa;
+    private boolean pep;
 
 	/**
 	 * Create new enabled widget
