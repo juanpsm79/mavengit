@@ -6,6 +6,7 @@ package com.github.maven.example;
 public class Widget {
 
 	private boolean enabled;
+	private boolean cocoa;
 
 	/**
 	 * Create new enabled widget
