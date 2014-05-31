@@ -5,6 +5,14 @@ package com.github.maven.example;
  */
 public class Widget {
 
+	public boolean isCocoa() {
+		return cocoa;
+	}
+
+	public void setCocoa(boolean cocoa) {
+		this.cocoa = cocoa;
+	}
+
 	private boolean enabled;
 	private boolean cocoa;
 
