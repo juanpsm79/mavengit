@@ -5,21 +5,9 @@ package com.github.maven.example;
  */
 public class Widget {
 
-	public boolean isCocoa() {
-		return cocoa;
-	}
-
-	public void setCocoa(boolean cocoa) {
-		this.cocoa = cocoa;
-	}
-
 	private boolean enabled;
 	private boolean cocoa;
-<<<<<<< HEAD
 	private boolean funcional;
-=======
-    private boolean pep;
->>>>>>> refs/heads/development
 
 	/**
 	 * Create new enabled widget
@@ -48,7 +36,6 @@ public class Widget {
 		return this;
 	}
 
-<<<<<<< HEAD
 	public boolean isFuncional() {
 		return funcional;
 	}
@@ -57,13 +44,3 @@ public class Widget {
 		this.funcional = funcional;
 	}
 }
-=======
-	public boolean isPep() {
-		return pep;
-	}
-
-	public void setPep(boolean pep) {
-		this.pep = pep;
-	}
-}
->>>>>>> refs/heads/development
